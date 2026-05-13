@@ -1,0 +1,15 @@
+
+.sticky-top {
+    position: sticky;
+    top: 100px; /* Cố định cách mép trên màn hình 100px (để không bị lẹm vào navbar nếu có) */
+    z-index: 1; /* Đảm bảo sidebar luôn hiển thị phía trên các phần tử khác */
+}
+
+  /* * ĐOẠN 2: CARD STYLING
+   * Định dạng lại giao diện của các khối Card (bài viết, widget) trông hiện đại và mượt mà hơn.
+   */
+.card {
+    border: none; /* Bỏ viền mặc định của Bootstrap */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08); /* Đổ bóng nhẹ xung quanh */
+    border-radius: 12px; /* Bo tròn các góc 12px */
+}
