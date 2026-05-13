@@ -18,3 +18,12 @@ body {
     font-family: var(--bs-body-font-family);
     background-color: #f8fafc; /* Slate 50 - Màu nền sáng nhẹ */
 }
+.btn-primary {
+        background-color: var(--bs-primary);
+        border-color: var(--bs-primary);
+    }
+    
+.btn-primary:hover {
+        background-color: var(--bs-primary-hover);
+        border-color: var(--bs-primary-hover);
+    }
