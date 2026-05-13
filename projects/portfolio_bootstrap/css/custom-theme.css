@@ -1,0 +1,20 @@
+/* 1. Thiết lập biến màu sắc và font chữ cho toàn trang */
+:root {
+        /* Color Palette Documentation */
+        /* Primary: Teal 500 */
+    --bs-primary: #14b8a6;
+    --bs-primary-hover: #0d9488;
+    --bs-primary-rgb: 20, 184, 166;
+        /* Secondary: Slate 500 */
+    --bs-secondary: #64748b;
+    --bs-secondary-rgb: 100, 116, 139;
+
+        /* Typography */
+    --bs-body-font-family: 'Inter', system-ui, sans-serif;
+}
+
+    /* 2. Ghi đè cấu hình mặc định (Reboot) của thẻ body */
+body {
+    font-family: var(--bs-body-font-family);
+    background-color: #f8fafc; /* Slate 50 - Màu nền sáng nhẹ */
+}
