@@ -27,3 +27,17 @@ body {
         background-color: var(--bs-primary-hover);
         border-color: var(--bs-primary-hover);
     }
+/* Make cards rounder */
+.card {
+    border-radius: 16px;
+}
+
+/* Make buttons less rounded */
+.btn {
+    border-radius: 8px;
+}
+
+/* Make inputs more rounded */
+.form-control, .form-select {
+    border-radius: 10px;
+}
