@@ -41,3 +41,16 @@ body {
 .form-control, .form-select {
     border-radius: 10px;
 }
+
+/* 5. Tùy chỉnh Khoảng cách (Custom Spacing) */
+    
+    /* Class dùng cho các section lớn */
+.py-section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    /* Class dùng để tạo khoảng cách lớn giữa các phần tử trong Grid/Flexbox */
+.gap-4 {
+        gap: 2rem;
+    }
