@@ -1,0 +1,33 @@
+/* Kích thước Avatar cho bình luận gốc (50px) */
+.comment img.rounded-circle {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+/* Kích thước Avatar nhỏ hơn cho bình luận trả lời (40px) */
+.comment .reply img.rounded-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Reply Indentation: Tạo đường gạch dọc và lùi lề cho bình luận trả lời */
+.comment .reply {
+        border-left: 3px solid #e2e8f0;
+        padding-left: 1rem;
+    }
+
+    /* Lùi vào trong 3rem (tương đương class ms-5) */
+.comment .reply.ms-5 {
+        margin-left: 3rem;
+    }
+
+    /* Nút Reply: Màu sắc và hiệu ứng khi di chuột */
+.action-reply {
+        color: #0d6efd; /* Màu primary mặc định của Bootstrap */
+        transition: color 0.2s ease;
+    }
+
+.action-reply:hover {
+        color: #0a58ca; /* Tối hơn 10% khi hover */
+}
